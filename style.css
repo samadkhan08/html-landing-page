@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+header {
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(0.25turn, rgba(111, 179, 59, 0.5), rgba(34, 116, 151, 0.5)),
+    url("https://www.additiv.com/wp-content/uploads/2022/01/additiv-vision2030-Web.jpg");
+    padding: 0px 10rem;
+}
+
+nav{
+    width: 100%;
+}
+
+.NavitemsContainer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+nav button{
+    padding: 10px 30px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+
+
+/* First Section */
+
+#firstSection{
+    width: 100%;
+    margin-top: 80px;
+    padding: 0px 10rem;
+    
+}
+
+#firstSection .firstwrapper{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+#firstSection .firstwrapper div {
+    width: 350px;
+    height: 200px;
+    
+}
+
+#firstSection .firstwrapper div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+
+/* Second Section */
+
+#SecondSection{
+    width: 100%;
+    padding: 50px 10rem; 
+}
+
+.secondwrapper{
+    display: flex; 
+    gap: 30px;
+    padding-top: 20px;
+}
+
+.secondwrapper div{
+    width: 350px;
+    height: 250px;
+}
+
+#SecondSection .secondwrapper div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;  
+}
+
+h2{
+    font-weight: 600;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+
+/* Third Section */
+
+#thirdSection{
+    width: 100%;
+    height: 450px;
+    padding: 0px 10rem;
+    margin-top: 80px;
+    background: linear-gradient(0.25turn, rgb(111, 179, 59), #3e7085c6, rgb(34, 116, 151));
+    
+}
+
+
+#thirdSection .ctaContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+}
+
+.ctaContainer h1{
+    font-size: 3vw;
+    font-weight: 700;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.ctaContainer p{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.ctaContainer button{
+    width: 130px;
+    height: 45px;
+    border-radius: 12px;
+    background-color: white;
+    font-weight: 700;
+    margin-top: 30px;
+    border: none;
+}
+
+/* Fourth Section */
+
+#fourthSection{
+    width: 100%;
+    height: 500px;
+    padding: 50px 10rem;
+    margin-bottom: 180px;
+}
+
+.fourthContainer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.leftContainer{
+    padding-right: 80px;
+}
+
+.fourthContainer div img{
+    width: 450px;
+    height: 500px;
+}
+
+.leftContainer h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.leftContainer h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+.leftContainer p{
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+#icon{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-top: 30px
+}
+.leftContainer span{
+    padding-right: 40px;
+}
+.material-symbols-outlined{
+    color: blue;
+
+}
+
+/* Footer */
+
+.cityNames{
+    width: 100%;
+    height: 80px;
+    border: 1px solid rgb(190, 190, 190) ;
+}
+
+#cityNames{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding: 30px;
+    gap: 40px;
+}
+
+.cityNames  ul {
+    list-style-type: none;
+    color: rgb(0, 94, 255)
+}
+
+.footerContainer{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    padding: 80px 10rem;
+    gap: 50px;
+}
+#learnMore{
+    list-style-type: none;
+    width: 100%;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.learnMore h4{
+    padding-bottom: 25px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.learnMore li{
+    padding-bottom: 15px;
+}
+
+
+.newsLetter{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.newsLetter{
+    padding-left: 60px ;
+}
+.newsLetter h4{
+      font-size: 18px;
+      font-weight: 600;
+      padding-bottom: 25px;
+}
+
+.newsLetter input{
+    margin-top: 25px;
+    padding: 18px 100px;
+    border-radius: 12px;
+    border: 1px solid rgb(181, 181, 181);    
+}
+
+.copyrightFooter{
+    width: 100%;
+    height: 80px;
+    padding: 20px 10rem;
+    border-top: 1px solid rgb(198, 198, 198);
+}
+.copyrightwrapper{
+    display: flex;
+    justify-content:space-between ;
+    align-items:center ;
+    width: 100%;
+    height: 100%;
+}
